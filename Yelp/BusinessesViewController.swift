@@ -61,6 +61,14 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         tableView.reloadData()
     }
     
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        let indexPath = tableView.indexPathForSelectedRow
+//        let detailViewController = segue.destination as! DetailViewController
+//        
+//        let movie = filteredData[(indexPath?.row)!]
+//        detailViewController.movie = movie
+//    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

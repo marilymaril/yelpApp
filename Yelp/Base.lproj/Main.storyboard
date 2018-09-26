@@ -135,6 +135,7 @@
                                             <outlet property="reviewsCountLabel" destination="7S9-vC-p6m" id="ROf-ju-Cvm"/>
                                             <outlet property="tagsLabel" destination="iHW-bs-VW6" id="ehu-RH-TkS"/>
                                             <outlet property="thumbImageView" destination="bTc-x3-Ybs" id="uMd-nK-I5Q"/>
+                                            <segue destination="kbf-A0-aPy" kind="show" id="kjv-zA-wWE"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -151,6 +152,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2127.1999999999998" y="357.57121439280365"/>
+        </scene>
+        <!--Business Detail View Controller-->
+        <scene sceneID="Zo7-0Q-b5S">
+            <objects>
+                <viewController id="kbf-A0-aPy" customClass="BusinessDetailViewController" customModule="Yelp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nhh-c3-oQz"/>
+                        <viewControllerLayoutGuide type="bottom" id="9gE-FT-UaF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dko-ue-TfE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bsl-hN-2by" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3039" y="358"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kva-53-TT0">
