@@ -24,8 +24,8 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. I was wondering how they did with the Yelp API and how they did the detail screen.
+2. I was interested in discussing what other API's would be good to practice with other than Yelp.
 
 ## Video Walkthrough
 
